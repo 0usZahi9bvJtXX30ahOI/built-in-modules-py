@@ -2,6 +2,8 @@
 
 ```python
 from itertools import repeat
+
+repeat(object, times=None)
 ```
 
 ```python
