@@ -2,6 +2,8 @@
 
 ```python
 from itertools import zip_longest
+
+zip_longest(*iterables, fillvalue=None)
 ```
 
 ```python
