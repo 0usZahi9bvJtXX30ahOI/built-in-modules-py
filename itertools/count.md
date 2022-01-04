@@ -2,6 +2,8 @@
 
 ```python
 from itertools import count
+
+count(start=0, step=1)
 ```
 
 ```python
