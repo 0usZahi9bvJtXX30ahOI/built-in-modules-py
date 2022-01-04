@@ -2,6 +2,8 @@
 
 ```python
 from itertools import cycle
+
+cycle(iterable)
 ```
 
 ```python
