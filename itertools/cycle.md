@@ -21,3 +21,15 @@ o
 o
 ... 
 ```
+
+```python
+>>> for x in cycle(['On', 'Off']):
+...     print(x)
+... 
+On
+Off
+On
+Off
+On
+... 
+```
