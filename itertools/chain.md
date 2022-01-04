@@ -2,6 +2,8 @@
 
 ```python
 from itertools import chain
+
+chain(*iterables)
 ```
 
 ```python
