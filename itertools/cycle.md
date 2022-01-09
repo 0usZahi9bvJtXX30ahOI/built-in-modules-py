@@ -1,10 +1,21 @@
 # cycle
 
+## Syntax
+
 ```python
 from itertools import cycle
 
 cycle(iterable)
 ```
+
+## Description
+
+> Return elements from the iterable until it is exhausted.
+> Then repeat the sequence indefinitely.
+
+---
+
+## Examples
 
 ```python
 >>> for x in cycle('Foo'):
