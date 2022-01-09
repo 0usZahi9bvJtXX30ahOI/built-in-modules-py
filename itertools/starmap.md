@@ -1,10 +1,21 @@
 # starmap
 
+## Syntax
+
 ```python
 from itertools import starmap
 
 starmap(function, iterable)
 ```
+
+## Description
+
+> Return an iterator whose values are returned from the function evaluated with
+> an argument tuple taken from the given sequence.
+
+---
+
+## Examples
 
 ```python
 >>> values = [(0, 2), (1, 2), (2, 2)]
