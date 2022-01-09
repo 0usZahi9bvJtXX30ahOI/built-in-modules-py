@@ -1,10 +1,22 @@
 # repeat
 
+## Syntax
+
 ```python
 from itertools import repeat
 
 repeat(object, times=None)
 ```
+
+## Description
+
+> Create an iterator which returns the object for the specified number of times.
+>
+> If not specified, returns the object endlessly.
+
+---
+
+## Examples
 
 ```python
 >>> word, times = 'Foo', 3
