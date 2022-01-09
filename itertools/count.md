@@ -1,10 +1,20 @@
 # count
 
+## Syntax
+
 ```python
 from itertools import count
 
 count(start=0, step=1)
 ```
+
+## Description
+
+> Return a count object whose `.__next__()` method returns consecutive values.
+
+---
+
+## Examples
 
 ```python
 >>> start, step = 3, 2
