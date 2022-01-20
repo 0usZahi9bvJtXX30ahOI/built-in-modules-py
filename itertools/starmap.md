@@ -25,12 +25,12 @@ starmap(function, iterable)
 ```
 
 ```python
->>> from functools import reduce
->>> from operator import mul
->>> 
->>> def multiply(*args):
-...     return reduce(mul, args)
->>> 
+from functools import reduce
+from operator import mul
+
+def multiply(*args):
+    return reduce(mul, args)
+
 >>> values = [(1, 2, 3), (1, 2, 3, 4), (1, 2, 3, 4, 5)]
 >>> multiplications = starmap(multiply, values)
 >>> print(list(multiplications))
