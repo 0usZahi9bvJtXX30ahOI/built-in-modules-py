@@ -50,3 +50,25 @@ False
 >>> print(student1 < student2)
 True
 ```
+
+```python
+@total_ordering
+class BankAccount:
+    def __init__(self, balance=0):
+        self.balance = balance
+
+    def __lt__(self, other):
+        return self.balance < other.balance
+
+    def __eq__(self, other):
+        return self.balance == other.balance
+
+>>> account1 = BankAccount(500)
+>>> account2 = BankAccount(300)
+>>> print(account1 > account2)
+True
+>>> print(account1 < account2)
+False
+>>> print(account1 == account2)
+False
+```
