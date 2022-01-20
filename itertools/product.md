@@ -28,12 +28,30 @@ product(*iterables, repeat=1)
 ```python
 >>> a, b = 'ABCD', 'xy'
 >>> result = list(product(a, b))
->>> print(result)
-[('A', 'x'), ('A', 'y'), ('B', 'x'), ('B', 'y'), ('C', 'x'), ('C', 'y'), ('D', 'x'), ('D', 'y')]
+>>> for x in result:
+...     print(x)
+... 
+('A', 'x')
+('A', 'y')
+('B', 'x')
+('B', 'y')
+('C', 'x')
+('C', 'y')
+('D', 'x')
+('D', 'y')
 ```
 
 ```python
 >>> result = list(product(range(2), repeat=3))
->>> print(result)
-[(0, 0, 0), (0, 0, 1), (0, 1, 0), (0, 1, 1), (1, 0, 0), (1, 0, 1), (1, 1, 0), (1, 1, 1)]
+>>> for x in result:
+...     print(x)
+... 
+(0, 0, 0)
+(0, 0, 1)
+(0, 1, 0)
+(0, 1, 1)
+(1, 0, 0)
+(1, 0, 1)
+(1, 1, 0)
+(1, 1, 1)
 ```
