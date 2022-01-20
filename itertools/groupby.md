@@ -17,12 +17,12 @@ groupby(iterable, key=None)
 ## Examples
 
 ```python
+def print_groupby(iterable, key=None):
+    for key, group in groupby(iterable, key):
+        print(f'{key=} --> group={list(group)}')
+
 >>> iterable = 'BCAACACAADBBB'
 >>> 
->>> def print_groupby(iterable, key=None):
-...     for key, group in groupby(iterable, key):
-...         print(f'{key=} --> group={list(group)}')
-... 
 >>> # group consecutive occurrences
 >>> print_groupby(iterable)
 key='B' --> group=['B']
