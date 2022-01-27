@@ -10,17 +10,17 @@ ChainMap(*maps)
 
 ## Description
 
-> A ChainMap groups multiple dicts (or other mappings) together to create a
-> single, updateable view.
+> A **ChainMap** groups multiple dicts (or other mappings) together to create a
+> single, updateable view. This is often much faster than creating a new
+> **dict** and running multiple `dict.update()` calls.
 >
-> The underlying mappings are stored in a list. That list is public and ca
+> The underlying mappings are stored in a list. That list is public and can
 > be accessed or updated using the **maps** attribute. There is no other
 > state.
 >
 > Lookups search the underlying mappings successively until a key is found.
 > In contrast, writes, updates, and deletions only operate on the first
 > mapping.
->
 
 ---
 
