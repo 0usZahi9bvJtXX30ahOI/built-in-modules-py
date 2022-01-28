@@ -32,6 +32,6 @@ def compare(a, b):
 
 >>> iterable = ['Foo', 'a', 'b', 'A', 'F', 'Bar']
 >>> result = list(sorted(iterable, key=cmp_to_key(compare)))
->>> print(result)
+>>> result
 ['A', 'Bar', 'F', 'Foo', 'a', 'b']
 ```
