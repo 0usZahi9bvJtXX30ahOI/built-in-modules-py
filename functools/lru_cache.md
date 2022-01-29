@@ -32,7 +32,7 @@ def fib(n):
         return n
     return fib(n-1) + fib(n-2)
 
->>> print([fib(n) for n in range(16)])
+>>> [fib(n) for n in range(16)]
 [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610]
 
 >>> fib.cache_info()
@@ -56,13 +56,13 @@ def get_pep(num):
 
 >>> for n in [8, 290, 308, 320, 8, 290]:
 ...     pep = get_pep(n)
-...     print(n, len(pep))
-8 104009
-290 60318
-308 57934
-320 50512
-8 104009
-290 60318
+...     n, len(pep)
+(8, 103645)
+(290, 59592)
+(308, 57934)
+(320, 50506)
+(8, 103645)
+(290, 59592)
 
 >>> get_pep.cache_info()
 CacheInfo(hits=2, misses=4, maxsize=32, currsize=4)
