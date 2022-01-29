@@ -40,6 +40,9 @@ CacheInfo(hits=28, misses=16, maxsize=None, currsize=16)
 ```
 
 ```python
+import urllib.request
+import urllib.error
+
 # LRU cache for static web content
 @lru_cache(maxsize=32)
 def get_pep(num):
