@@ -22,6 +22,21 @@ ChainMap(*maps)
 > In contrast, writes, updates, and deletions only operate on the first
 > mapping.
 
+### NOTE
+
+> - It provides one updatable view of multiple mapping objects. So you can
+>   search through multiple dicts at once.
+>
+> - It contains more information as it has a layered structure which provides
+>   information about the priority of the mappings. As you search for the value
+>   of a key, it starts searching from the first mapping and continues with the
+>   order you put the mappings in your Chainmap object.
+>
+> - It provides better performance if mappings you use in your application are
+>   big enough, expensive enough to access, or change often. Depending on the
+>   size of the mapping, using Chainmap objects over ordinary dictionaries can
+>   increase the performance of your application.
+
 ---
 
 ## Examples
