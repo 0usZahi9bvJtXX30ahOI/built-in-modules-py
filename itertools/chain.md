@@ -20,24 +20,12 @@ chain(*iterables)
 
 ```python
 >>> a, b, c = [1, 2], ['a', 'b'], ['foo']
->>> for x in chain(a, b, c):
-...     print(x)
-... 
-1
-2
-a
-b
-foo
+>>> list(chain(a, b, c))
+[1, 2, 'a', 'b', 'foo']
 ```
 
 ```python
 >>> a = [[1, 2], ['a', 'b'], ['foo']]
->>> for x in chain.from_iterable(a):
-...     print(x)
-... 
-1
-2
-a
-b
-foo
+>>> list(chain.from_iterable(a))
+[1, 2, 'a', 'b', 'foo']
 ```
