@@ -10,7 +10,7 @@ combinations_with_replacement(iterable, r)
 
 ## Description
 
-> Return successive r-length combinations of elements in the iterable
+> Return successive **r**-length combinations of elements in the **iterable**
 > allowing individual elements to have successive repeats.
 
 ---
