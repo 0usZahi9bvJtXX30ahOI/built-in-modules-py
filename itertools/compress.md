@@ -22,7 +22,6 @@ compress(data, selectors)
 ```python
 >>> data = ['a', 'b', 'c', 'd', 'e', 'f']
 >>> selectors = [True, 1, False, 0, 'A', '']
->>> result = list(compress(data, selectors))
->>> print(result)
+>>> list(compress(data, selectors))
 ['a', 'b', 'e']
 ```
