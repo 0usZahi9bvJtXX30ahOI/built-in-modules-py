@@ -18,13 +18,11 @@ combinations_with_replacement(iterable, r)
 ## Examples
 
 ```python
->>> result = list(combinations_with_replacement('abc', 2))
->>> print(result)
+>>> list(combinations_with_replacement('abc', 2))
 [('a', 'a'), ('a', 'b'), ('a', 'c'), ('b', 'b'), ('b', 'c'), ('c', 'c')]
 ```
 
 ```python
->>> result = list(combinations_with_replacement(range(2), 3))
->>> print(result)
+>>> list(combinations_with_replacement(range(2), 3))
 [(0, 0, 0), (0, 0, 1), (0, 1, 1), (1, 1, 1)]
 ```
