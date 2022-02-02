@@ -10,10 +10,10 @@ compress(data, selectors)
 
 ## Description
 
-> Return data elements corresponding to true selector elements.
+> Return **data** elements corresponding to true **selector** elements.
 >
-> Forms a shorter iterator from selected data elements using the selectors to
-> choose the data elements.
+> Forms a shorter iterator from selected **data** elements using the
+> **selectors** to choose the data elements.
 
 ---
 
