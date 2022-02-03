@@ -10,7 +10,7 @@ cycle(iterable)
 
 ## Description
 
-> Return elements from the iterable until it is exhausted.
+> Return elements from the **iterable** until it is exhausted.
 > Then repeat the sequence indefinitely.
 
 ---
