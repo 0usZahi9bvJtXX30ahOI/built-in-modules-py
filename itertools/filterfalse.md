@@ -10,9 +10,9 @@ filterfalse(predicate, iterable)
 
 ## Description
 
-> Return those items of iterable for which function(item) is false.
+> Return those items of **iterable** for which **function**(item) is false.
 >
-> If function is None, return the items that are false.
+> If function is **None**, return the items that are false.
 
 ---
 
