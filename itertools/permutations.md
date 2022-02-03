@@ -10,7 +10,7 @@ permutations(iterable, r=None)
 
 ## Description
 
-> Return successive r-length permutations of elements in the iterable.
+> Return successive **r**-length permutations of elements in the **iterable**.
 
 ---
 
