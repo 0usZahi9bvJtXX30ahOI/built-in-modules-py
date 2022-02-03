@@ -10,7 +10,7 @@ pairwise(iterable)
 
 ## Description
 
-> Return an iterator of overlapping pairs taken from the input iterator.
+> Return an iterator of overlapping pairs taken from the input **iterator**.
 
 ---
 
