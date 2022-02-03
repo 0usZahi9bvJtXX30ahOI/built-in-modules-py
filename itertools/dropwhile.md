@@ -10,9 +10,9 @@ dropwhile(predicate, iterable)
 
 ## Description
 
-> Drop items from the iterable while predicate(item) is true.
+> Drop items from the **iterable** while **predicate**(item) is true.
 >
-> Afterwards, return every element until the iterable is exhausted.
+> Afterwards, return every element until the **iterable** is exhausted.
 
 ---
 
