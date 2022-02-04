@@ -19,14 +19,12 @@ filterfalse(predicate, iterable)
 ## Examples
 
 ```python
->>> result = list(filterfalse(lambda x: x % 2, range(10)))
->>> print(result)
+>>> list(filterfalse(lambda x: x % 2, range(10)))
 [0, 2, 4, 6, 8]
 ```
 
 ```python
 >>> iterable = [False, 'Foo', None, True, 0, 1, '']
->>> result = list(filterfalse(None , iterable))
->>> print(result)
+>>> list(filterfalse(None , iterable))
 [False, None, 0, '']
 ```
