@@ -18,13 +18,11 @@ pairwise(iterable)
 
 ```python
 >>> iterable = 'abcdefg'
->>> result = list(pairwise(iterable))
->>> print(result)
+>>> list(pairwise(iterable))
 [('a', 'b'), ('b', 'c'), ('c', 'd'), ('d', 'e'), ('e', 'f'), ('f', 'g')]
 ```
 
 ```python
->>> result = list(pairwise(range(5)))
->>> print(result)
+>>> list(pairwise(range(5)))
 [(0, 1), (1, 2), (2, 3), (3, 4)]
 ```
