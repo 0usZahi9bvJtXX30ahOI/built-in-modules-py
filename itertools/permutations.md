@@ -18,11 +18,9 @@ permutations(iterable, r=None)
 
 ```python
 >>> iterable = 'abc'
->>> result = list(permutations(iterable))
->>> print(result)
+>>> list(permutations(iterable))
 [('a', 'b', 'c'), ('a', 'c', 'b'), ('b', 'a', 'c'), ('b', 'c', 'a'), ('c', 'a', 'b'), ('c', 'b', 'a')]
->>>
->>> result = list(permutations(iterable, 2))
->>> print(result)
+
+>>> list(permutations(iterable, 2))
 [('a', 'b'), ('a', 'c'), ('b', 'a'), ('b', 'c'), ('c', 'a'), ('c', 'b')]
 ```
