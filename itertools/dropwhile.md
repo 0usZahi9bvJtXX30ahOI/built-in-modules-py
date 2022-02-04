@@ -19,14 +19,12 @@ dropwhile(predicate, iterable)
 ## Examples
 
 ```python
->>> result = list(dropwhile(lambda x: x <= 5, range(11)))
->>> print(result)
+>>> list(dropwhile(lambda x: x <= 5, range(11)))
 [6, 7, 8, 9, 10]
 ```
 
 ```python
 >>> iterable = [-1, 3, -4, 10, -1000, 4, 3, -0.1, 0]
->>> result = list(dropwhile(lambda x: x <= 0, sorted(iterable)))
->>> print(result)
+>>> list(dropwhile(lambda x: x <= 0, sorted(iterable)))
 [3, 3, 4, 10]
 ```
