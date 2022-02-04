@@ -27,13 +27,11 @@ islice(iterable, start, stop, step=None)
 ## Examples
 
 ```python
->>> result = list(islice(range(1000000), 4))
->>> print(result)
+>>> list(islice(range(1000000), 4))
 [0, 1, 2, 3]
 ```
 
 ```python
->>> result = list(islice(range(1000000), 1000, 10000, 1000))
->>> print(result)
+>>> list(islice(range(1000000), 1000, 10000, 1000))
 [1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000]
 ```
