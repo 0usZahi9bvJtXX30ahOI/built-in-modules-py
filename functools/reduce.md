@@ -25,9 +25,7 @@ reduce(function, sequence, initial=_initial_missing)
 ## Examples
 
 ```python
->>> from operators import add
->>> result = reduce(add, range(10))
->>> print(result)
+>>> from operator import add
 45
 ```
 
