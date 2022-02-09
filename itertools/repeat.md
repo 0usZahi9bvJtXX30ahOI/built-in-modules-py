@@ -10,9 +10,10 @@ repeat(object, times=None)
 
 ## Description
 
-> Create an iterator which returns the object for the specified number of times.
+> Create an iterator which returns the **object** for the specified number of
+> **times**.
 >
-> If not specified, returns the object endlessly.
+> If not specified, returns the **object** endlessly.
 
 ---
 
