@@ -25,9 +25,7 @@ singiledispatch(func)
 ```python
 @singledispatch
 def fun(arg):
-    if verbose:
-        print("Let me just say,", end=" ")
-    print(arg)
+    return arg
 
 @fun.register
 def _(arg: int):
