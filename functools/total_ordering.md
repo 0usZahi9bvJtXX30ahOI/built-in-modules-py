@@ -44,11 +44,11 @@ class Student:
 >>> student1 = Student("xyz", 23)
 >>> student2 = Student("abc", 25)
 >>> 
->>> print(student1 == student2)
+>>> student1 == student2
 False
->>> print(student1 > student2)
+>>> student1 > student2
 False
->>> print(student1 < student2)
+>>> student1 < student2
 True
 ```
 
@@ -66,10 +66,10 @@ class BankAccount:
 
 >>> account1 = BankAccount(500)
 >>> account2 = BankAccount(300)
->>> print(account1 > account2)
+>>> account1 > account2
 True
->>> print(account1 < account2)
+>>> account1 < account2
 False
->>> print(account1 == account2)
+>>> account1 == account2
 False
 ```
