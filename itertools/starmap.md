@@ -10,8 +10,8 @@ starmap(function, iterable)
 
 ## Description
 
-> Return an iterator whose values are returned from the function evaluated with
-> an argument tuple taken from the given sequence.
+> Return an iterator whose values are returned from the **function** evaluated
+> with an argument tuple taken from the given **iterable**.
 
 ---
 
