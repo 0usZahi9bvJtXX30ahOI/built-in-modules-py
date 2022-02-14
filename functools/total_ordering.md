@@ -13,7 +13,8 @@ total_ordering()
 > Given a class defining one or more rich comparison ordering methods,
 > this class decorator supplies the rest.
 >
-> The class must define one of `__lt__()`, `__le__()`, `__gt__()`, or `__ge__()`.
+> The class must define one of `__lt__()`, `__le__()`, `__gt__()`, or
+> `__ge__()`.
 >
 > In addition, the class should supply an `__eq__()` method.
 ---
