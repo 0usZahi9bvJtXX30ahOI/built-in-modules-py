@@ -19,8 +19,7 @@ starmap(function, iterable)
 
 ```python
 >>> values = [(0, 2), (1, 2), (2, 2)]
->>> squares = starmap(pow, values)
->>> print(list(squares))
+>>> list(starmap(pow, values))
 [0, 1, 4]
 ```
 
@@ -32,7 +31,6 @@ def multiply(*args):
     return reduce(mul, args)
 
 >>> values = [(1, 2, 3), (1, 2, 3, 4), (1, 2, 3, 4, 5)]
->>> multiplications = starmap(multiply, values)
->>> print(list(multiplications))
+>>> list(starmap(multiply, values))
 [6, 24, 120]
 ```
