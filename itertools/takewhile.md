@@ -10,7 +10,8 @@ takewhile(predicate, iterable)
 
 ## Description
 
-> Return successive entries from an iterable as long as the predicate evaluates to true for each entry.
+> Return successive entries from an **iterable** as long as the **predicate**
+> evaluates to true for each entry.
 
 ---
 
