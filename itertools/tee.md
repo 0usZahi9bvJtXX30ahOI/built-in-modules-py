@@ -34,11 +34,11 @@ tee(iterable, n=2)
 ```python
 >>> iterable = [3, 'Foo', None, 4, True]
 >>> iterator1, iterator2 = tee(iterable, 2)
->>> print(list(iterator1))
+>>> list(iterator1)
 [3, 'Foo', None, 4, True]
->>> print(list(iterator1))
+>>> list(iterator1)
 []
->>> print(list(iterator2))
+>>> list(iterator2)
 [3, 'Foo', None, 4, True]
 ```
 
@@ -47,6 +47,6 @@ tee(iterable, n=2)
 >>> iterator1, iterator2 = tee(iterable, 2)
 >>> first_half = islice(iterator1, 3)
 >>> second_half = islice(iterator2, 3, None)
->>> print(list(chain(second_half, first_half)))
+>>> list(chain(second_half, first_half))
 [4, 5, 6, 1, 2, 3]
 ```
