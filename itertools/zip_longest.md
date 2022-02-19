@@ -10,8 +10,8 @@ zip_longest(*iterables, fillvalue=None)
 
 ## Description
 
-> Return a zip_longest object whose `.__next__()` method returns a tuple where the
-> i-th element comes from the i-th iterable argument.
+> Return a zip_longest object whose `.__next__()` method returns a tuple where
+> the i-th element comes from the i-th iterable argument.
 >
 > The `.__next__()` method continues until the longest iterable in the argument
 > sequence is exhausted and then it raises StopIteration.
@@ -19,7 +19,7 @@ zip_longest(*iterables, fillvalue=None)
 > When the shorter iterables are exhausted, the fillvalue is substituted in
 > their place.
 >
-> The fillvalue efaults to None or can be specified by a keyword argument.
+> The **fillvalue** defaults to None or can be specified by a keyword argument.
 
 ---
 
