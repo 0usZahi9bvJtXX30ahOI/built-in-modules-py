@@ -30,3 +30,27 @@ namedtuple(typename, field_name, *, rename=False, default=None, module=None)
 > are applied to the rightmost parameters.
 
 ---
+
+## Examples
+
+```python
+>>> House = namedtuple('House', ['city', 'country', 'year', 'area', 'num_rooms'])
+>>> 
+>>> house1 = House('New York', 'United States', 2022, 2018, 4)
+>>> house2 = House('Sydney', 'Australia', 1900, 1000, 2)
+>>> 
+>>> house1
+House(city='New York', country='United States', year=2022, area=2018, num_rooms=4)
+>>> house2
+House(city='Sydney', country='Australia', year=1900, area=1000, num_rooms=2)
+>>>
+>>> house1.city
+'New York'
+>>> house2.country
+'Australia'
+>>> house2[1]
+'Australia'
+>>> 
+>>> house1.area + house2.area
+3018
+```
